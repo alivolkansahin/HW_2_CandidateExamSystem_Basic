@@ -1,0 +1,89 @@
+Soru 1
+Puan 10
+Türkiyenin başkenti neresidir?
+İstanbul
+İzmir
+Ankara
+Antalya
+Cevap C
+
+Soru 2
+Puan 10
+(7x9)/3 kaçtır?
+24
+21
+22
+23
+Cevap B
+
+Soru 3
+Puan 11
+İstanbul'un fethi kaç yılında olmuştur?
+1437
+1443
+1467
+1453
+Cevap D
+
+Soru 4
+Puan 9
+Hangisi bir kıta değildir?
+Günedoğu Anadolu
+İç Anadolu
+Kuzedoğu Anadolu
+Akdeniz Bölgesi
+Cevap C
+
+Soru 5
+Puan 10
+Suyun kaynama noktası kaçtır?
+100
+95
+90
+85
+Cevap A
+
+Soru 6
+Puan 10
+Hangisi bir ana renk değildir?
+Yeşil
+Kırmızı
+Mavi
+Sarı
+Cevap A
+
+Soru 7
+Puan 10
+Aşağıdakilerden hangisi bir artık yıldır?
+2066
+2088
+2042
+2055
+Cevap B
+
+Soru 8
+Puan 10
+Bilgeadam Boost Java-12 kursunda kaç öğrenci vardır?
+13
+14
+15
+16
+Cevap C
+
+Soru 9
+Puan 10
+Hangisi dünya üzerinde yer alan bir kıta değildir?
+Afrika
+Hindistan
+Avrupa
+Asya
+Cevap B
+
+Soru 10
+Puan 10
+Türkiye Eurovisionda Sertab Erener ile kaç yılında birincilik kazanmıştır?
+2000
+2001
+2002
+2003
+Cevap D
