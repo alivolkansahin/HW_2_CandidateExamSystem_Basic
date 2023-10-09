@@ -11,6 +11,7 @@ import com.volkans.implementations.repository.utilities.Utils;
 
 
 public class MenuImpl implements IMenu{
+	private static DatabaseImpl database = new DatabaseImpl();
 	private static ExamManagerImpl manager = new ExamManagerImpl();
 	
 	private int key;
@@ -77,6 +78,7 @@ public class MenuImpl implements IMenu{
 
 	@Override
 	public int getCandidatePageChoice() {
+		System.out.println(Utils.GREEN_BOLD_BRIGHT + "\nCandidate " + getManager().getCandidate().getCandidateName() + " " + getManager().getCandidate().getCandidateSurname() + Utils.RESET);
 		System.out.println("1- Show Exam Info");
 		System.out.println("2- Start Exam");
 		System.out.println("5- Show My Exam Result");
@@ -127,7 +129,7 @@ public class MenuImpl implements IMenu{
 				break;
 			}
 			getManager().showCurrentQuestion(remainingTime,currentQuestion);
-			getManager().checkCandidateAnswer(currentQuestion, getExamPageChoice());			
+			getManager().checkCandidateAnswer(currentQuestion, getExamPageChoice());
 		}	
 		getManager().finishExam();
 	}
@@ -155,7 +157,11 @@ public class MenuImpl implements IMenu{
 	public static ExamManagerImpl getManager() {
 		return manager;
 	}
-	
+
+	public static DatabaseImpl getDatabase() {
+		return database;
+	}
+
 	// getters-setters
 	public int getKey() {
 		return key;

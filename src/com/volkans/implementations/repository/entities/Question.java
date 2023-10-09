@@ -7,7 +7,6 @@ import java.util.Map;
 import com.volkans.implementations.repository.enums.EOptions;
 
 public class Question implements Serializable{
-	private static int whichQuestion;
 	private String questionNumber;
 	private int questionPoint;
 	private String questionContext;

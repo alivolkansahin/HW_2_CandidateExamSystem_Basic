@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.Random;
 
 import com.volkans.implementations.repository.enums.EUserExamStatus;
+import com.volkans.implementations.repository.utilities.Utils;
 
 public class Candidate implements Serializable {
 	private static Random rnd = new Random();
@@ -89,10 +90,10 @@ public class Candidate implements Serializable {
 	public String toString() {
 		if(getExamStatus().equals(EUserExamStatus.TOOK)) {
 			return "Candidate: " + getCandidateName() + " " + getCandidateSurname() + " ID: " 
-					+ getCandidateID() + " Exam Status: " + getExamStatus() + " Score: " + getExamScore();
+					+ getCandidateID() + " Exam Status: " + Utils.GREEN_BOLD_BRIGHT + getExamStatus() + Utils.RESET + " Score: " + getExamScore();
 		} else {
 			return "Candidate: " + getCandidateName() + " " + getCandidateSurname() + " ID: " 
-					+ getCandidateID() + " Exam Status: " + getExamStatus();
+					+ getCandidateID() + " Exam Status: " + Utils.YELLOW_BOLD_BRIGHT + getExamStatus() + Utils.RESET;
 		}
 		
 	}

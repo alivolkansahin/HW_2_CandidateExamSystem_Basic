@@ -9,6 +9,5 @@ public interface IMenu {
 	void applyCandidatePageChoice(int key);	
 	void runExamPage();
 	String getExamPageChoice();
-	void cyclePage(int key);
-	
+	void cyclePage(int key);	
 }
